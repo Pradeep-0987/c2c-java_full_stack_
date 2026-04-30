@@ -1,8 +1,15 @@
 package com.tnsif.finalconcept;
 
-public class FinalOne extends Citizen {
+public class FinalOne {
+
+	private String name;
 
 	public FinalOne(String name) {
-		super(name);
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "FinalOne [name=" + name + "]";
 	}
 }
